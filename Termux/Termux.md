@@ -1,31 +1,38 @@
-# Termux 
+# 📱 PHP Programming on Android with Termux
 
-Termux is a **free** and **open source** **app** that lets you run Linux commands on your **Android** device **without** rooting or additional access.
+Termux is free and open source app , a **terminal** emulator for Android that provides a Linux environment **without** requiring root access or additional access.
 
-Following are steps for using Termux to code PHP programs (similarly C, C++, Java, Pyhton can also be tried out)
+Following are steps for using Termux as a terminal to code and run PHP programs (similar setup step can be followed for C, C++, Java, and Pyhton).
+> [!WARNING]
+> Updates are not being released for Play Store version. Latest version can be downloaded from F-Droid or GitHub.
 
-## 🛠 Setup
+## 🛠️ Hardware Setup (optional, but recommended)
 If no access to computer / laptop other than lab , but have a smartphone, then **≈** small screen desktop/laptop coding experience, by using: 
-* mobile keyboard (external Bluetooth keyboard , C type or Android OTG connector to mobile ), and,
-* mobile screen expander / magnifier placed in front of mobile ( passive, does not require electricity , serves as magnifying glass , usually clear acrylic polymer/plastic as convex lens)
+* Keyboard, connect mobile to a physical keyboard via Bluetooth or a USB-OTG adapter, and
+* Display, use a mobile screen magnifier, placed in front of mobile ( passive, does not require electricity , serves as magnifying glass , usually clear acrylic polymer/plastic as convex lens)
 <p align="center">
   <img src="https://github.com/erahulkulkarni/PHP-Programming-BAIL358D/blob/main/Termux/img/ChatGPT%20Image%20Using%20termux%20to%20code.png" alt="Rough representation of mobile magnifier and keyboard setup" width="50%" /><br />
   <small><em>Rough representation of mobile magnifier and keyboard setup.</em></small>
 </p>
 
-**≈** computer setup , but minus GUI (Graphical User Interface) , ide 
+**≈** computer setup , but minus GUI (Graphical User Interface) , IDE (Integrated Development Environment) 
 > [!IMPORTANT]
-> since it's only terminal, visualization, file and web browser will not work , **but** you get to work on code, hence find out where you would/could make mistakes
+> Since it's only terminal, visualization, file and web browser are not available, **but** you get to work on code, hence find out where you would/could make mistakes.
 
 > [!TIP]
-> work done on GUI ( like gedit , jupyter notebook ) , or work done on IDE ( like , CodeBlocks , KDevelop , Spyder , NetBeans ) , ( **mostly** all ) same operations can also be done through terminal
+> Work done on GUI ( like gedit , Jupyter Notebook ) , or work done on IDE ( like , Code::Blocks , KDevelop , Spyder , NetBeans ) , ( mostly the ) same operations can also be done through terminal
 
-## To code , save , interpret PHP programs on Termux on Android mobiles:
-Following ↓ [instructions](https://share.google/aimode/xDQwrW1dRnIaymoAL), and desktop/laptop [setup](https://github.com/erahulkulkarni/PHP-Programming-BAIL358D/edit/main/README.md#-general-instructions) are mostly similar
-### 1. Update system packages
-It is good practice to update your system before starting a new setup.
+## ⚙️ Initial Setup: 
+Install Termux from Google Play Store. And run the following commands, ensure you have an active Internet connection
+(you can find similarity to desktop/laptop [setup steps](https://github.com/erahulkulkarni/PHP-Programming-BAIL358D/edit/main/README.md#-initial-setup)): 
+### 1. Update and Upgrade system packages
+It is good practice to update your system before starting a new setup, to avoid installation errors.
+
+> [!TIP]
+> `pkg` is recommended to be used instead of `apt`
+
 > [!IMPORTANT]
-> Do not forget to press **enter** **↵** after typing or copy pasting command[s]
+> Do not forget to press **enter** **↵** option or key after typing or copy pasting command[s]
 ```
 apt update && apt upgrade -y
 ```
@@ -62,7 +69,7 @@ nano hello.php
   <small><em>nano hello.php</em></small>
 </p>
 
-### 5. Code
+### 5. 📝 Coding your first PHP program
 Good programming practice (usually taken care by IDE, if not then: )
 * Open close block of code then start coding inbetween. 
 * Indent blocks of code, **even** if not part of syntax. Entire program should not begin on same column.
@@ -76,18 +83,18 @@ Good programming practice (usually taken care by IDE, if not then: )
 </p>
 
 ### 6. Write to file
-Save code using option of control x , ctrl x , and press enter ↵ 
+Save code using option of control O , ctrl O , and press enter ↵ 
+> [!CAUTION]
+> It is **alphabet** O and **not** digit 0
 <p align="center">
   <img src="https://github.com/erahulkulkarni/PHP-Programming-BAIL358D/blob/main/Termux/img/04%20hello%20php%2005%20write%20code%20to%20file.png" alt="save code" width="20%" /> &nbsp;&nbsp;&nbsp;&nbsp; 
   <img src="https://github.com/erahulkulkarni/PHP-Programming-BAIL358D/blob/main/Termux/img/04%20hello%20php%2006%20save%20code.png" alt="exit nano editor" width="20%" />
 </p>
 
 ### 7. Exit Nano editor
-Exit Nano editor using option of control and O , ctrl O
-> [!CAUTION]
-> It is **alphabet** O and **not** digit 0
+Exit Nano editor and return to the command line, using option of control and x , ctrl x
 
-### 8. Interpret code
+### 8. 🚀 Running your program, interpret code
 PHP is interpreted and no executable is generated. Run program using, php program.php: 
 ```
 php hello.php
@@ -103,11 +110,11 @@ php hello.php
   <small><em>output</em></small> 
 </p>
 
-## Unsaid requirements: 
+## 💡 Unsaid requirements: 
 * Memory management, pause/disable other heavy system/mobile processor and ram using processes/apps. Pause apps like Facebook, Instagram, YouTube, Maps, enable after
 * Internet connection required to download termux app, and run apt install (or also installing python packages), but **after** setup/install, Internet connection is **not required**
 
-## Some motivation: 
+## 🌟 Some motivation: 
 [Centrifuge and microscope on paper cutout](https://www.youtube.com/watch?v=Qf-D1Upn-KU)
 
 
