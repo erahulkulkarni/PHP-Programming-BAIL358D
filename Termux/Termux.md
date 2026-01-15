@@ -23,13 +23,12 @@ If no access to computer / laptop other than lab , but have a smartphone, then *
 > Work done on GUI ( like gedit , Jupyter Notebook ) , or work done on IDE ( like , Code::Blocks , KDevelop , Spyder , NetBeans ) , ( mostly the ) same operations can also be done through terminal
 
 ## ⚙️ Initial Setup: 
-Install Termux from Google Play Store. And run the following commands, ensure you have an active Internet connection
-(you can find similarity to desktop/laptop [setup steps](https://github.com/erahulkulkarni/PHP-Programming-BAIL358D/edit/main/README.md#-initial-setup)): 
+Install Termux from Google Play Store. And run the following commands, ensure you have an active Internet connection: 
 ### 1. Update and Upgrade system packages
 It is good practice to update your system before starting a new setup, to avoid installation errors.
 
 > [!TIP]
-> `pkg` is recommended to be used instead of `apt`
+> `pkg` is recommended to be used instead of `apt`, to keep similarity to desktop/laptop [setup steps](https://github.com/erahulkulkarni/PHP-Programming-BAIL358D/edit/main/README.md#-initial-setup) `apt` is used
 
 > [!IMPORTANT]
 > Do not forget to press **enter** **↵** option or key after typing or copy pasting command[s]
