@@ -1,0 +1,75 @@
+	<!-- 
+		8
+			Develop a PHP program to read the content of the file and 
+			 print the frequency of occurrence of the word accepted by 
+			 the user in the file			 
+		HTML form file, 8_1_search_word.html
+	-->
+	<!--
+		Two file approach: 
+			HTML file for the form, to collect user input
+				and then pass it to PHP program
+			PHP file to accept(read) variables and values passed to it
+	-->
+	<!-- 		    
+		HTML to read user input →---send-to---→ PHP to process		
+												action = script name/URL
+						HTML    →------→------→ PHP
+				using form input 		|
+				 and method = get		| form data appended to the action URL
+							= post		| sent as the request body
+										|
+									using HTTP GET POST PUT
+	-->	
+	
+	<form method="get" action="8_2_print_freq.php">
+			
+		Search word: <input type="text" name="word" /> <br /> 
+		
+				     <input type="submit" value="Seach" />	    
+	</form>
+	
+	<!-- 		    
+		HTML to read user input →---send-to---→ PHP to process 
+										|		
+									using HTTP GET POST PUT
+									
+									verify the same, on Firefox 
+									Web Developer Tools, F12	, or 
+									Ctrl Shift I		, or 
+									≡ → More tools → Web Developer Tools 
+									and
+									Network (Network Monitor), or Ctrl Shift E
+									
+	Based on context, use method="get", 	or method="post" 
+	When submit button on HTML page is clicked, mentioned action script: 
+		HTTP request for PHP script is made by browser 
+	If HTML form uses 
+		method="get" 
+			then, action script, observe URL, http link script?varname=value 
+			Web Developer Tools → Network (Network Monitor) 
+			Network → Click on successful 200 Method GET → Headers tab 
+				Headers tab right hand side 
+					form data is part of GET request 
+		method="post" 
+			then, variable and value sent as part of request body 
+			Web Developer Tools → Network (Network Monitor) 
+			Network → Click on successful 200 Method POST → Request tab 
+				Request tab right hand side 
+					Request tab has Form data 
+					or if Raw toggle button is switched, then, Request payload
+	--> 		
+	
+	
+	
+	<!-- 
+	For more on HTML element, its's attributes, values, functionality 
+		Please check, Mozilla Developer Network, 
+		
+			<form>: The Form element 
+https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/form 
+
+			<input>: The HTML Input element 
+https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input 
+	--> 
+ 
