@@ -2,9 +2,7 @@
 
 Termux is free and open source app , a **terminal** emulator for Android that provides a Linux environment **without** requiring root access or additional access.
 
-Following are steps for using Termux as a terminal to code and run PHP programs (similar setup step can be followed for C, C++, Java, and Pyhton).
-> [!WARNING]
-> Updates are not being released for Play Store version. Latest version can be downloaded from F-Droid or GitHub.
+Following are steps for using Termux as a terminal to code and run PHP programs:
 
 ## 🛠️ Hardware Setup (optional, but recommended)
 If no access to computer / laptop other than lab , but have a smartphone, then **≈** small screen desktop/laptop coding experience, by using: 
@@ -23,12 +21,20 @@ If no access to computer / laptop other than lab , but have a smartphone, then *
 > Work done on GUI ( like gedit , Jupyter Notebook ) , or work done on IDE ( like , Code::Blocks , KDevelop , Spyder , NetBeans ) , ( mostly the ) same operations can also be done through terminal
 
 ## ⚙️ Initial Setup: 
+> [!TIP]
+> Connect to Library WiFi, note down the steps in book
+
 Install Termux from Google Play Store. And run the following commands, ensure you have an active Internet connection: 
-### 1. Update and Upgrade system packages
-It is good practice to update your system before starting a new setup, to avoid installation errors.
+
+> [!WARNING]
+> Updates are not being released for Play Store version. Latest version can be downloaded from F-Droid or GitHub.
 
 > [!TIP]
-> `pkg` is recommended to be used instead of `apt`, to keep similarity to desktop/laptop [setup steps](https://github.com/erahulkulkarni/PHP-Programming-BAIL358D/edit/main/README.md#-initial-setup) `apt` is used
+> If [keyboard connected to mobile](#-hardware-setup-(optional,-but-recommended)), use keyboard shortcut: **alt** &nbsp;&nbsp; **tab** , to switch between terminal (app to code) and browser (Firefox/Chrome app for instructions)
+
+
+### 1. Update and Upgrade system packages
+It is good practice to update your system before starting a new setup, to avoid installation errors.
 
 > [!IMPORTANT]
 > Do not forget to press **enter** **↵** option or key after typing or copy pasting command[s]
@@ -108,6 +114,8 @@ php hello.php
   <img src="https://github.com/erahulkulkarni/PHP-Programming-BAIL358D/blob/main/Termux/img/04%20hello%20php%2008%20output.png" alt="output" width="20%" /><br />
   <small><em>output</em></small> 
 </p>
+
+Similar setup step can be followed for C, C++, Java, and Pyhton.
 
 ## 💡 Unsaid requirements: 
 * Memory management, pause/disable other heavy system/mobile processor and ram using processes/apps. Pause apps like Facebook, Instagram, YouTube, Maps, enable after
