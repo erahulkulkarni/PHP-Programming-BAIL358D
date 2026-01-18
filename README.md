@@ -1,6 +1,6 @@
 # PHP-Programming-BAIL358D
 
-PHP (PHP: Hypertext Preprocessor, started as Personal Home Page, Rasmus Lerdorf) lab programs, output templates, and documentation for the **BAIL358D** course.
+PHP (PHP: Hypertext Preprocessor, started as Personal Home Page, by Rasmus Lerdorf) lab programs, output templates, and documentation for the **BAIL358D** course.
 
 Using **gedit** to code, **Apache** daemon and **PHP** to run programs, on **Ubuntu**(Linux).
 
@@ -63,7 +63,7 @@ sudo apt install php libapache2-mod-php -y
 ## 📜 General instructions
 Guidelines on coding standards, common errors, and debugging.
 > [!IMPORTANT]
-> Source code PDF version, so that syntax color code is clearly visible
+> Source code PDF ( Portable Document Format ) version, so that syntax color code is clearly visible
 
 | Instructions in ↓ as → | PDF | PHP |
 | --- | --- | --- |
