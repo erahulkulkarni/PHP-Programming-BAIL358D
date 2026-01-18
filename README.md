@@ -90,8 +90,8 @@ Templates for lab results, fill out details and include your
 * HTML form markup in: 📄 [PDF](https://github.com/erahulkulkarni/PHP-Programming-BAIL358D/blob/main/output%20templates/0_3_output_template_html.pdf) | [HTML](https://github.com/erahulkulkarni/PHP-Programming-BAIL358D/blob/main/output%20templates/output_template.html)
 
 ## Few usage examples
-* Wikipedia([MediaWiki](https://en.wikipedia.org/wiki/MediaWiki))
-* VTU([Visvesvaraya Technological University](https://vtu.ac.in/), `https://vtu.ac.in/xmlrpc.php` )
-* Facebook([HHVM](https://github.com/facebook/hhvm/blob/master/LICENSE.PHP) earlier version)
+* VTU ( [Visvesvaraya Technological University](https://vtu.ac.in/), `https://vtu.ac.in/xmlrpc.php` )
+* Wikipedia ( [MediaWiki](https://en.wikipedia.org/wiki/MediaWiki) )
+* Facebook ( [HHVM](https://github.com/facebook/hhvm/blob/master/LICENSE.PHP) earlier version )
 
 🌟 Visual Debugger for Python, Java, C, C++, and JavaScript: [Python Tutor](https://pythontutor.com)
