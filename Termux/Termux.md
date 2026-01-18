@@ -22,7 +22,7 @@ If no access to computer / laptop other than lab , but have a smartphone, then *
 
 ## ⚙️ Initial Setup: 
 > [!TIP]
-> Connect to Library WiFi, note down the steps in book
+> Note down the steps
 
 Install Termux from Google Play Store. And run the following commands, ensure you have an active Internet connection: 
 
