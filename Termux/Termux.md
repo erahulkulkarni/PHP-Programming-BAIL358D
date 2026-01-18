@@ -21,13 +21,16 @@ If no access to computer / laptop other than lab , but have a smartphone, then *
 > Work done on GUI ( like gedit , Jupyter Notebook ) , or work done on IDE ( like , Code::Blocks , KDevelop , Spyder , NetBeans ) , ( mostly the ) same operations can also be done through terminal
 
 ## ⚙️ Initial Setup: 
-> [!TIP]
-> Note down the steps
 
 Install Termux from Google Play Store. And run the following commands, ensure you have an active Internet connection: 
 
 > [!WARNING]
 > Updates are not being released for Play Store version. Latest version can be downloaded from F-Droid or GitHub.
+
+> [!TIP]
+> Note down the steps
+
+or
 
 > [!TIP]
 > If keyboard connected to mobile, use shortcut: **alt** &nbsp;&nbsp; **tab** , to switch between terminal (app to code) and browser (Firefox/Chrome app for instructions)
