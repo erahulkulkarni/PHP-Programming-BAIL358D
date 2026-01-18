@@ -1,6 +1,6 @@
 # PHP-Programming-BAIL358D
 
-PHP lab programs, output templates, and documentation for the **BAIL358D** course.
+PHP (PHP: Hypertext Preprocessor, started as Personal Home Page, Rasmus Lerdorf) lab programs, output templates, and documentation for the **BAIL358D** course.
 
 Using **gedit** to code, **Apache** daemon and **PHP** to run programs, on **Ubuntu**(Linux).
 
@@ -38,7 +38,7 @@ sudo apt install build-essential gedit -y
 ```
 sudo apt install apache2 -y
 ```
-* **Verification**: Open Firefox and visit http://localhost. The default Apache home page should be displayed.
+* **Verification**: Open Firefox and visit `http://localhost`, the default Apache home page should be displayed.
 ### 4. Configure web directory permissions 
 ```
 sudo chmod 777 -R /var/www/html
@@ -56,7 +56,7 @@ sudo apt install php libapache2-mod-php -y
 ## 🛠 Code and run on mobile Termux app
 
 > [!TIP]
-> Not to worry, if no access to desktop/laptop other than lab , if you have a smartphone, then ≈ small screen desktop/laptop experience to code, please check: [Termux](https://github.com/erahulkulkarni/PHP-Programming-BAIL358D/edit/main/Termux/Termux.md)
+> Not to worry, if no access to desktop/laptop other than lab , if you have a smartphone, then ≈ small screen desktop/laptop experience to code, please check: [Termux](https://github.com/erahulkulkarni/PHP-Programming-BAIL358D/blob/main/Termux/Termux.md)
 
 
 ## 📜 General instructions
@@ -88,5 +88,10 @@ Templates for lab results, fill out details and include your
 
 * PHP code in: 📄 [PDF](https://github.com/erahulkulkarni/PHP-Programming-BAIL358D/blob/main/output%20templates/0_3_output_template_php.pdf) | [PHP](https://github.com/erahulkulkarni/PHP-Programming-BAIL358D/blob/main/output%20templates/output_template.php)
 * HTML form markup in: 📄 [PDF](https://github.com/erahulkulkarni/PHP-Programming-BAIL358D/blob/main/output%20templates/0_3_output_template_html.pdf) | [HTML](https://github.com/erahulkulkarni/PHP-Programming-BAIL358D/blob/main/output%20templates/output_template.html)
+
+## Few usage examples
+* Wikipedia([MediaWiki](https://en.wikipedia.org/wiki/MediaWiki))
+* VTU([Visvesvaraya Technological University](https://vtu.ac.in/), `https://vtu.ac.in/xmlrpc.php` )
+* Facebook([HHVM](https://github.com/facebook/hhvm/blob/master/LICENSE.PHP) earlier version)
 
 🌟 Visual Debugger for Python, Java, C, C++, and JavaScript: [Python Tutor](https://pythontutor.com)
