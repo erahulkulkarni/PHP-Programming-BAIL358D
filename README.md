@@ -62,6 +62,7 @@ sudo apt install php libapache2-mod-php -y
 
 ## 📜 General instructions
 Guidelines on coding standards, common errors, and debugging.
+
 > [!IMPORTANT]
 > Source code PDF ( Portable Document Format ) version, so that syntax color code is clearly visible
 
@@ -70,6 +71,10 @@ Guidelines on coding standards, common errors, and debugging.
 | English |  [📄](https://github.com/erahulkulkarni/PHP-Programming-BAIL358D/blob/main/general%20instructions/0_1_general_instructions_en_php.pdf) |  [📄](https://github.com/erahulkulkarni/PHP-Programming-BAIL358D/blob/main/general%20instructions/0_1_general_instructions_en.php) |
 | ಕನ್ನಡ | [📄](https://github.com/erahulkulkarni/PHP-Programming-BAIL358D/blob/main/general%20instructions/0_2_general_instructions_kn_php.pdf) | [📄](https://github.com/erahulkulkarni/PHP-Programming-BAIL358D/blob/main/general%20instructions/0_2_general_instructions_kn.php) |
 | Pending translations in: मराठी , हिन्दी |
+
+> [!TIP]
+> To avoid typos in PHP function names, check if in list of all defined functions, run `php -r "print_r(get_defined_functions());"` in terminal
+
 
 ## 🧪 Lab programs
 
