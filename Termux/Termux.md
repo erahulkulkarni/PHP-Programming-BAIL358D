@@ -30,7 +30,7 @@ Install Termux from Google Play Store. And run the following commands, ensure yo
 > Updates are not being released for Play Store version. Latest version can be downloaded from F-Droid or GitHub.
 
 > [!TIP]
-> If [keyboard connected to mobile](#-hardware-setup-(optional,-but-recommended)), use keyboard shortcut: **alt** &nbsp;&nbsp; **tab** , to switch between terminal (app to code) and browser (Firefox/Chrome app for instructions)
+> If keyboard connected to mobile, use shortcut: **alt** &nbsp;&nbsp; **tab** , to switch between terminal (app to code) and browser (Firefox/Chrome app for instructions)
 
 
 ### 1. Update and Upgrade system packages
