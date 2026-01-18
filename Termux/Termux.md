@@ -115,7 +115,7 @@ php hello.php
   <small><em>output</em></small> 
 </p>
 
-Similar setup step can be followed for C, C++, Java, and Pyhton.
+Similar setup steps can be followed to code in C, C++, Java, or Pyhton.
 
 ## 💡 Unsaid requirements: 
 * Memory management, pause/disable other heavy system/mobile processor and ram using processes/apps. Pause apps like Facebook, Instagram, YouTube, Maps, enable after
