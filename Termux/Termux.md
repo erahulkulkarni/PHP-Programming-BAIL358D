@@ -81,9 +81,9 @@ nano hello.php
 Good programming practice (usually taken care by IDE, if not then: )
 * Open close block of code then start coding inbetween. 
 * Indent blocks of code, **even** if not part of syntax. Entire program should not begin on same column.
-* Open and close parentheses **()**, braces **{}** or curly brackets, and brackets **[]** square brackets, and only then code expression inbetween. You may never get missing paranthesis syntax errors.
+* Open and close parentheses **()**, braces **{}** or curly brackets, and brackets **[]** square brackets, and only then code expression inbetween.
 * Likewise, open and close double quotes **""**, and code inbetween.
-* Do not miss out on semi colon **;** if part of syntax
+* Do not miss out on semi colon **;** when part of syntax
 
 <p align="center">
   <img src="https://github.com/erahulkulkarni/PHP-Programming-BAIL358D/blob/main/Termux/img/04%20hello%20php%2002%20outer%20php%20block.png" alt="outer php block" width="20%" /> &nbsp;&nbsp;&nbsp;&nbsp;
