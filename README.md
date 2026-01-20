@@ -99,7 +99,7 @@ Templates for lab results, fill out details and include your
 * Wikipedia ( [MediaWiki](https://en.wikipedia.org/wiki/MediaWiki) )
 * Facebook ( [HHVM](https://github.com/facebook/hhvm/blob/master/LICENSE.PHP) earlier version )
 
-Possibly a combination of Wordpress, and PHP where database is required
+Possibly a combination of [Wordpress](https://wordpress.org/support/update-php/) (also one of the programming languages WordPress is built on), and PHP where database is required: 
 
 * VTU ( [Visvesvaraya Technological University](https://vtu.ac.in/xmlrpc.php) , `https://vtu.ac.in/xmlrpc.php` )
 * IIT Delhi ( [Indian Institue of Technology Delhi](https://home.iitd.ac.in/index.php) , `https://home.iitd.ac.in/index.php`)
